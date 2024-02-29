@@ -11,8 +11,8 @@ public class TaskItem
         isCompleted = false;
         repeatCount = repeats;
     }
-    public void SetCompleted(bool completed)
+    public void SetCompleted()
     {
-        isCompleted = completed;
+        isCompleted = true;
     }
 }
